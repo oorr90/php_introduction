@@ -1,0 +1,170 @@
+body {
+    font-family: "Poppins", "Helvetica Neue", sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #262626;
+    background-color: #f2f2f2;
+}
+
+
+
+
+/********************************
+
+STYLES
+
+********************************/
+
+header, footer {
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/********************************
+
+INTRO IMAGE
+
+********************************/
+
+.intro_image {
+    background-image: url("img/php_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 100%;
+}
+
+
+/********************************
+
+HEADER
+
+********************************/
+
+header {
+    padding: 50px 0;
+}
+
+header h1 {
+    padding-bottom: 20px;
+}
+
+header h2 {
+    font-size: 1.1em;
+}
+
+
+
+/********************************
+
+MAIN
+
+********************************/
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/********************************
+
+GREETING
+
+********************************/
+
+.greeting {
+    margin: 40px 0;
+}
+
+
+/********************************
+
+PROJECT
+
+********************************/
+
+.project {
+    border: 3px solid #333;
+    padding: 10px 20px;
+}
+
+
+/********************************
+
+SURVEY: FORM
+
+********************************/
+
+.survey_intro p {
+    font-size: .8em;
+    margin-bottom: 30px;
+}
+
+
+
+/********************************
+
+SURVEY: RESPONSE
+
+********************************/
+
+.survey_response h4 {
+    margin-bottom: 40px;
+}
+
+.letter_intro {
+    font-style: italic;
+    margin-top: 40px;
+}
+
+
+/********************************
+
+HIGHLIGHTS
+
+********************************/
+
+.highlights ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.highlights p {
+    font-weight: bold;
+}
+
+.highlights {
+    font-size: .9em;
+    margin-top: 50px;
+    color: #999;
+}
+
+/********************************
+
+FOOTER
+
+********************************/
+
+footer {
+    padding: 14px 0;
+    font-size: .8em;
+    text-transform: lowercase;
+}
+
+.social {
+    text-align: center;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
